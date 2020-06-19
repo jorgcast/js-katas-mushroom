@@ -1,6 +1,6 @@
 # js-katas-template
 
-Use this template to create your own katas project.
+Use this template to create your own katas project.\
 This project uses `mocha` for testing and `babel` to use ES Modules in the spec files.
 
 You can add as many katas as you want, just add a new `kata-N.js` file into the `src` folder, and his own `kata-N.spec.js` file into the `test` folder.
@@ -9,25 +9,48 @@ You can add as many katas as you want, just add a new `kata-N.js` file into the 
 
 ## How to test the code
 
-Run `npm install` to install all the project dependencies.
-Run `npm test` to check all the test files.
-Run `npm run test1` to check only the tests with the #kata-1 `describe` section, i.e. kata-1.spec.js file.
-Run `npm run test2` to check only the tests with the #kata-2 `describe` section, i.e. kata-2.spec.js file.
+Run `npm install` to install all the project dependencies.\
+Run `npm test` to check all the test files.\
+Run `npm run test1` to check only the tests with the #kata-1 `describe` section, i.e. kata-1.spec.js file.\
+Run `npm run test2` to check only the tests with the #kata-2 `describe` section, i.e. kata-2.spec.js file.\
+Run `npm run test3` to check only the tests with the #kata-3 `describe` section, i.e. kata-3.spec.js file.
 
-Once running any test command, mocha will watch for changes in the `src` folder.
+### Kata 1
 
-If you add more katas to the project and want to test their own test files separately, add a new script in the `package.json` file, following the "test1" script, and adapting it to your test's `describe` section.
+Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 
-## How to define Kata requirements
+|   | Example 1 | Example 2 | Example 3 |
+|---|---|---|---|
+| Input | 121 | -121 | 10 |
+| **Output** | **true** | **false** | **false** |
+| Reversed Input | 121 | 121- | 01 |
 
-First of all we define what the objective of the kata is.
-Then we provide some examples of the results.
+### Kata 2
 
-Let's see a full example:
+Given a 32-bit signed integer, reverse digits of an integer.
 
-> Implement a function that, given a number, returns the reversed number.
-> Examples:
+**Note:** Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2<sup>31</sup>, 2<sup>31</sup> − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
-    987       -> 789
-    554956    -> 659455
-    1080      -> 0801
+|   | Example 1 | Example 2 | Example 3 |
+|---|---|---|---|
+| Input | 123 | -123 | 120 |
+| **Output** | **321** | **-321** | **21** |
+
+### Kata 3
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string ''.
+
+Example 1:
+
+    Input: ['flower','flow','flight']
+    Output: 'fl'
+
+Example 2:
+
+    Input: ['dog','racecar','car']
+    Output: ''
+    Explanation: There is no common prefix among the input strings.
+
+**Note:** All given inputs are in lowercase letters a-z.

@@ -1,7 +1,7 @@
 {
-  "name": "js-katas-template",
+  "name": "js-katas-mushroom",
   "version": "1.0.0",
-  "description": "JS katas boilerplate to create your own JS katas project.",
+  "description": "JS Katas - Level Mushroom",
   "author": "Jorge Caster <hola@jorge-castano.com>",
   "keywords": [
     "katas",
@@ -22,7 +22,8 @@
   "scripts": {
     "test": "mocha --require babel-register -w --watch-files src",
     "test1": "mocha --require babel-register -w --watch-files src -f #kata-1",
-    "test2": "mocha --require babel-register -w --watch-files src -f #kata-2"
+    "test2": "mocha --require babel-register -w --watch-files src -f #kata-2",
+    "test3": "mocha --require babel-register -w --watch-files src -f #kata-3"
   },
   "dependencies": {
     "mocha": "^8.0.1"
