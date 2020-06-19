@@ -1,13 +1,14 @@
-# js-katas-template
+# JS Katas - Mushroom
 
-Use this template to create your own katas project.\
-This project uses `mocha` for testing and `babel` to use ES Modules in the spec files.
+Resolve every Kata in its own file, following its description bellow.
 
-You can add as many katas as you want, just add a new `kata-N.js` file into the `src` folder, and his own `kata-N.spec.js` file into the `test` folder.
+Launch the unit tests in order to check the correct solution of the Katas.
 
-**Note:** *The katas and tests here are mere examples. Use this as a template for your own project and add some real katas to it.*
+The solutions must be uploaded to a public github/gitlab repository.
 
 ## How to test the code
+
+This project uses `mocha` for testing and `babel` to use ES Modules in the spec files.
 
 Run `npm install` to install all the project dependencies.\
 Run `npm test` to check all the test files.\
@@ -17,7 +18,7 @@ Run `npm run test3` to check only the tests with the #kata-3 `describe` section,
 
 ### Kata 1
 
-Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+Write a function that returns true when an integer is a palindrome. A palindrome is a word that is read the same backward as forward, such as `madam` or `racecar`.
 
 |   | Example 1 | Example 2 | Example 3 |
 |---|---|---|---|
@@ -38,19 +39,21 @@ Given a 32-bit signed integer, reverse digits of an integer.
 
 ### Kata 3
 
-Write a function to find the longest common prefix string amongst an array of strings.
-
-If there is no common prefix, return an empty string ''.
+Given an array of words (strings), find the longest common prefix.\
+Return an empty string ('') when no common prefix is found.
 
 Example 1:
 
-    Input: ['flower','flow','flight']
-    Output: 'fl'
+    Input: ['banana','ball','basket']
+    Output: 'ba'
 
 Example 2:
 
-    Input: ['dog','racecar','car']
-    Output: ''
-    Explanation: There is no common prefix among the input strings.
+    Input: ['Saruman','SALUTES', 'sAuron']
+    Output: 'sa'
 
-**Note:** All given inputs are in lowercase letters a-z.
+Example 3:
+
+    Input: ['mouse','cat','dog']
+    Output: ''
+    Explanation: No common prefix found.
