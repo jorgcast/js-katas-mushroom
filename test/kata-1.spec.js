@@ -1,6 +1,6 @@
 import assert from 'assert';
 
-import kata1 from '../src/kata-1';
+import kata1 from '../src/solutions/kata-1';
 
 describe('#kata-1', function () {
   describe('Number palindrome', function () {

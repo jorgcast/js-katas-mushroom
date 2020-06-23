@@ -1,6 +1,6 @@
 import assert from 'assert';
 
-import kata3 from '../src/kata-3';
+import kata3 from '../src/solutions/kata-3';
 
 describe('#kata-3', function () {
   describe('Words pattern', function () {

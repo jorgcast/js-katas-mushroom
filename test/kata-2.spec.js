@@ -1,6 +1,6 @@
 import assert from 'assert';
 
-import kata2 from '../src/kata-2';
+import kata2 from '../src/solutions/kata-2';
 
 describe('#kata-2', function () {
   describe('Longest common prefix', function () {
