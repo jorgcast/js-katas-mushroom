@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {boolean}
  */
-const kata1 = (x = 0) => {
+const kata1 = (x) => {
   // Do something here and return a boolean
 };
 

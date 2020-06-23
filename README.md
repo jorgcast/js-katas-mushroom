@@ -28,19 +28,8 @@ Write a function that returns true when an integer is a palindrome. A palindrome
 
 ### Kata 2
 
-Given a 32-bit signed integer, reverse digits of an integer.
-
-**Note:** Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2<sup>31</sup>, 2<sup>31</sup> − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
-
-|   | Example 1 | Example 2 | Example 3 |
-|---|---|---|---|
-| Input | 123 | -123 | 120 |
-| **Output** | **321** | **-321** | **21** |
-
-### Kata 3
-
-Given an array of words (strings), find the longest common prefix.\
-Return an empty string ('') when no common prefix is found.
+Given an array of words, find the longest common prefix.\
+Return an empty string `''` when no common prefix is found.
 
 Example 1:
 
@@ -57,3 +46,31 @@ Example 3:
     Input: ['mouse','cat','dog']
     Output: ''
     Explanation: No common prefix found.
+
+### Kata 3
+
+Write a method to know if a string of `words` follows the given `pattern`.
+
+Assume `pattern` and `words` contain only lowercase letters, are never an empty string `''`, and `words` can allways be separated by a single space.
+
+Example 1:
+
+    Input: pattern = 'abba', words = 'red green green red'
+    Output: true
+
+Example 2:
+
+    Input: pattern = 'abba', words = 'red green green blue'
+    Output: false
+
+Example 3:
+
+    Input: pattern = 'aaaa', words = 'red green green red'
+    Output: false
+
+Example 4:
+
+    Input: pattern = 'abba', words = 'red red red red'
+    Output: false
+
+**Hint:** Try using an object to store data.

@@ -25,7 +25,7 @@ describe('#kata-1', function () {
     });
   });
 
-  describe('EXTRA Points:', function () {
+  describe('BONUS Points:', function () {
     it('should return an Error when the value is a string', function () {
       assert.throws(function () { kata1('wtf') }, Error);
     });

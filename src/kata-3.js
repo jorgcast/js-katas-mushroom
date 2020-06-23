@@ -1,9 +1,10 @@
 /**
- * @param {string[]} words
- * @return {string}
+ * @param {string} pattern
+ * @param {string} words
+ * @return {boolean}
  */
-const kata3 = (words = []) => {
-  // Do something here and return a string
+const kata3 = (pattern, words) => {
+  // Do something here and return a boolean
 };
 
 export default kata3;

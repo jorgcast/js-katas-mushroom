@@ -1,9 +1,9 @@
 /**
- * @param {number} x
- * @return {number}
+ * @param {string[]} words
+ * @return {string}
  */
-const kata2 = (x = 0) => {
-  // Do something here and return a number
+const kata2 = (words) => {
+  // Do something here and return a string
 };
 
 export default kata2;
