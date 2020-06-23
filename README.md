@@ -51,7 +51,7 @@ Example 3:
 
 Write a method to know if a string of `words` follows the given `pattern`.
 
-Assume `pattern` and `words` contain only lowercase letters, are never an empty string `''`, and `words` can allways be separated by a single space.
+Assume `pattern` and `words` contain only lowercase letters, are never an empty string `''`, and `words` can always be separated by a single space.
 
 Example 1:
 
